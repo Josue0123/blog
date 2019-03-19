@@ -1,15 +1,26 @@
 <div class="home">
   <div class="home-content">
-    <h1>Home component</h1>
-    <div class="albums">
-      <div class="album" *ngFor="let album of albunes">
-        <div class="nombre">
-          {{album.nombre}}
-        </div>
-        <div class="fecha">
-          {{album.fecha}}
-        </div>
-      </div>
-    </div>
+    
+   <input type="text"  [(ngModel)]="albumId" (keyup.enter)="buscarAlbum()">
+
+  <div class="mostrar" *ngIf="bandera; then mostrarAlbumes else mostrarAlbum">
+
+  </div>
+
   </div>
 </div>
+
+
+<ng-template #mostrarAlbum>
+  <div class="album" *ngIf="album">
+    <p>Album</p>
+    <img src="{{ album.nombre }}" alt="">
+  </div>
+</ng-template>
+
+<ng-template #mostrarAlbumes>
+  <div class="albumes" *ngFor="let talbum of albunes">
+    <p>Albumes</p>
+    <img src="{{ talbum.nombre }}" alt="">
+  </div>
+</ng-template>

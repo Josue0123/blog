@@ -14,7 +14,7 @@ export class AlbumService{
         return this.htpp.post<Album>(API.url + '/album', album);
     }
 
-    buscarAlbum(id: number){
+    buscarAlbum(id: string){
         return this.htpp.get<Album>(API.url + '/album/' + id);
     }
 

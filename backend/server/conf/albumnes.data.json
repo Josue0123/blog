@@ -2,38 +2,18 @@
     "Albumes": [
         {
             "id": 1,
-            "nombre": "Albun uno",
+            "nombre": "https://www.airc.ie/wp-content/uploads/horse-web.jpg",
             "fecha": "12/12/12"
         },
         {
             "id": 2,
-            "nombre": "Albun dos",
+            "nombre": "https://saywhat.news/wp-content/uploads/2018/10/img12-5.jpg",
             "fecha": "12/12/12"
         },
         {
             "id": 3,
-            "nombre": "Albun tres",
+            "nombre": "https://www.airc.ie/wp-content/uploads/horse-web.jpg",
             "fecha": "12/12/12"
-        },
-        {
-            "id": 4,
-            "nombre": "Albun cuatro",
-            "fecha": "12/12/12"
-        },
-        {
-            "id": 5,
-            "nombre": "Albun cinco",
-            "fecha": "12/12/12"
-        },
-        {
-            "id": 6,
-            "nombre": "Albun 6",
-            "fecha": "12/12/12"
-        },
-        {
-            "id": 10,
-            "nombre": "Album 10",
-            "fecha": "fecha"
         }
     ]
 }
