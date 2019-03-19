@@ -2,9 +2,9 @@ import { AlbumService } from './../../../servicios/Album.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
+  styleUrls: ['./home.component.styl'],
   providers: [AlbumService]
 })
 export class HomeComponent implements OnInit {
